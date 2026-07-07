@@ -1,34 +1,16 @@
-# Data (raw is large / proprietary; processed is generated)
-data/raw/*
-!data/raw/data_dictionary.md
-data/processed/
-dashboard/extracts/*.csv
+# Personal / instructional - keep out of the public repo
+CLAUDE.md
 
-# Saved model binaries
-models/*.pkl
+# Safety net for large / proprietary raw data (also covered per-subfolder)
+OG Project/
+**/data/raw/
+**/data/processed/
+**/_cache/
 
-# Personal / instructional files (keep out of the public repo)
-docs/interview_prep.md
-docs/dashboard_guide.md
-setup_git.bat
-setup_git.sh
+# Leftover scratch
+_tdir/
 
-# Python
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.venv/
-env/
-
-# OS / editor
+# OS / editor junk
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
-
-# Original data drop / source documents in the project root (proprietary, large)
-/TW_Master_Internal_Data.csv
-/TW_Final Test Data.csv
-/master_modified.csv
-/*.xlsx
-/*.pdf
+desktop.ini
