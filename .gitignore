@@ -1,12 +1,6 @@
 # Personal / instructional - keep out of the public repo
 CLAUDE.md
 
-# Safety net for large / proprietary raw data (also covered per-subfolder)
-OG Project/
-**/data/raw/
-**/data/processed/
-**/_cache/
-
 # Leftover scratch
 _tdir/
 
